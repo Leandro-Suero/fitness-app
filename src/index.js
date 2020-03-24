@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Exercices from "./pages/Exercises";
+import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render(<Exercices />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
