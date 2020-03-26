@@ -31,11 +31,11 @@ const Exercices = props => {
     if (error) return <FatalError />;
 
     return (
-        <div>
+        <React.Fragment>
             <Welcome username="Leandro" />
             <ExerciceList data={exercices} loading={loading} />
             <AddNew />
-        </div>
+        </React.Fragment>
     );
 };
 
