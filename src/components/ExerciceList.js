@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 
 const ExerciceList = ({ data }) => {
+    console.log(data);
     return data.map(exercice => (
         <Card
             key={exercice.id}
