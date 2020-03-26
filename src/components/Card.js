@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import circlesImg from "../images/circles.png";
 import emptyImg from "../images/empty.png";
 import "./styles/Card.css";
